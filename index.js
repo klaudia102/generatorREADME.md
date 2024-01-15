@@ -18,6 +18,10 @@ inquirer.prompt([
         message: "How would you describe your application?"
     },
     {
+        name: "Content",
+        message: "Please provide Table of Contents"
+    },
+    {
         name: "Instalation",
         message: "How your application should be instaled?"
     },
@@ -26,23 +30,11 @@ inquirer.prompt([
         message: "How your application should be used?"
     },
     {
-        name: "Credits",
-        message: "Is there any one you would like share credit with?"
-    },
-    {
         name: "License",
         message: "What kind of licence your application has?"
     },
     {
-        name: "Badges",
-        message: "What is a status of badge your application has?"
-    },
-    {
-        name: "Feature",
-        message: "Does your application has any features?"
-    },
-    {
-        name: "Contribution?",
+        name: "Contribution",
         message: "How would you like users to contribute??"
     },
     {
@@ -50,8 +42,8 @@ inquirer.prompt([
         message: "What kind of tests can be performed with code examples?"
     },
     {
-        name: "Link",
-        message: "Please provide link to your application"
+        name: "Questions",
+        message: "Have you got any questions?"
     }
 ]).then(answers => {
     // console.log("Just got done answering, these are my answers")
