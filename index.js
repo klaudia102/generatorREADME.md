@@ -10,6 +10,10 @@ const questions = [
 // Inquirer prompting questions:
 inquirer.prompt([
     {
+        name: "Title",
+        message: "What is a title of your application?"
+    },
+    {
         name: "Description",
         message: "How would you describe your application?"
     },
@@ -38,7 +42,7 @@ inquirer.prompt([
         message: "Does your application has any features?"
     },
     {
-        name: "How to contribute?",
+        name: "Contribution?",
         message: "How would you like users to contribute??"
     },
     {
@@ -50,9 +54,9 @@ inquirer.prompt([
         message: "Please provide link to your application"
     }
 ]).then(answers => {
-    console.log("Just got done answering, these are my answers")
+    // console.log("Just got done answering, these are my answers")
+    // console.log(answers)
     console.log(answers)
-    
 
     fs.writeFile("README.md", generateMarkdown(answers), err => {
         err ? console.error(err) : console.log ('Success!')
