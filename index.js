@@ -23,12 +23,14 @@ inquirer.prompt([
         message: "How your application should be used?"
     },
     {
+        type: "list",
         name: "License",
-        message: "What kind of licence your application has?"
+        message: "What kind of licence your application has?",
+        choices:['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'The BSD 2-Clause Simplified License','The BSD 3 New or Revised License'],
     },
     {
         name: "Contribution",
-        message: "How would you like users to contribute??"
+        message: "How would you like users to contribute?"
     },
     {
         name: "Tests",

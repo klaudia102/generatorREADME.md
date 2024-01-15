@@ -1,4 +1,4 @@
-# ss
+# s
 
 ## Description
 
@@ -17,7 +17,7 @@ s
 
 ## License
 
-s
+ This application is cover under MIT license.
 
 ## Contributing
 

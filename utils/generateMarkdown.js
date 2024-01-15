@@ -10,7 +10,7 @@ ${data.Instalation}\n
 ## Usage\n
 ${data.Usage}\n
 ## License\n
-${data.License}\n
+ This application is cover under ${data.License} license.\n
 ## Contributing\n
 ${data.Contribution}\n
 ## Tests\n
