@@ -15,10 +15,6 @@ inquirer.prompt([
         message: "How would you describe your application?"
     },
     {
-        name: "Content",
-        message: "Please provide Table of Contents"
-    },
-    {
         name: "Instalation",
         message: "How your application should be instaled?"
     },
@@ -39,9 +35,13 @@ inquirer.prompt([
         message: "What kind of tests can be performed with code examples?"
     },
     {
-        name: "Questions",
-        message: "Have you got any questions?"
-    }
+        name: "GitHubName",
+        message: "What is your Github username?"
+    },
+    {
+        name: "email",
+        message: "What is your email address for communication regarding application?"
+    },
 ]).then(answers => {
     fs.writeFile("README.md", generateMarkdown(answers), err => {
         err ? console.error(err) : console.log ('Success!')

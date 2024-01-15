@@ -3,8 +3,8 @@ function generateMarkdown(data) {
   return `# ${data.Title}\n
 ## Description\n
 ${data.Description}\n
-## Table of Contents\n
-${data.Content}\n
+## Table of Contents:\n
+[[TOC]]
 ## Instalation\n
 ${data.Instalation}\n
 ## Usage\n
@@ -16,7 +16,8 @@ ${data.Contribution}\n
 ## Tests\n
 ${data.Tests}\n
 ## Questions\n
-${data.Questions}\n
+ This application has been created by  ${data.GitHubName} https://github.com/${data.GitHubName}. 
+ If you have any question please send me an email ${data.email}.\n
 `;
 }
 
