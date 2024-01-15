@@ -2,10 +2,7 @@ const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-
-// array of questions for user
-const questions = [
-];
+const { clear } = require("console");
 
 // Inquirer prompting questions:
 inquirer.prompt([
@@ -46,18 +43,10 @@ inquirer.prompt([
         message: "Have you got any questions?"
     }
 ]).then(answers => {
-    // console.log("Just got done answering, these are my answers")
-    // console.log(answers)
-    console.log(answers)
-
     fs.writeFile("README.md", generateMarkdown(answers), err => {
         err ? console.error(err) : console.log ('Success!')
-    }
-     )
+    })
 })
-// function to write README file
-function writeToFile(fileName, data) {
-}
 
 // function to initialize program
 function init() {

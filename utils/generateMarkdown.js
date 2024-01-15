@@ -11,10 +11,6 @@ ${data.Instalation}\n
 ${data.Usage}\n
 ## License\n
 ${data.License}\n
-## Badges\n
-${data.Badges}\n
-## Feature\n
-${data.Feature}\n
 ## Contributing\n
 ${data.Contribution}\n
 ## Tests\n
