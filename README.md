@@ -1,4 +1,4 @@
-# s  [![License: Apache](https://img.shields.io/badge/License-Apache-green.svg)](https://opensource.org/license/apache-2-0/)
+# Generate Markdown.md  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Table of Contents:
@@ -14,35 +14,35 @@
 
 ## Description
 
-s
+This project has been created for developers, so they can easily create high quality README.md for their open-source project. Due to use of my application, they will save time and effor, and freedom to spend more time on actual project.
 
 
 ## Instalation
 
-s
+N/A
 ## Usage
 
-s
+To use application, user should enter 'node index.js' command in terminal and answer question. README.md wil be created from given answers and placed in repository.
 
 
 ## License
 
-This application is covwe under Apache License 2.0. 
+This application is covwe under MIT License. 
 
 
 ## Contributing
 
-s
+N/A
 
 
 ## Tests
 
-s
+N/A
 
 
 ## Questions
 
- This application has been created by  s https://github.com/s. 
- If you have any question please send me an email s.
+ This application has been created by  klaudia102 https://github.com/klaudia102. 
+ If you have any question please send me an email k.kierepka.a@gmail.com.
 
 
