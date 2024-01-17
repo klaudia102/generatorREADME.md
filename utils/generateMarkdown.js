@@ -22,7 +22,7 @@ ${data.Instalation}\
 ${data.Usage}\n
 
 ## License\n
-//  ${generateLicenseBadg(data.License)} \n
+${generateLicenseBadg(data.License)} \n
 
 ## Contributing\n
 ${data.Contribution}\n
@@ -38,19 +38,19 @@ ${data.Tests}\n
 }
  function generateLicenseBadg(licenseName) {
   if (licenseName ==='Apache License 2.0') {
-    return  `This application is cover under Apache License 2.0 license`;
+      return '[![License: Apache](https://img.shields.io/badge/License-Apache-green.svg)](https://opensource.org/license/apache-2-0/)'
   } if (licenseName === 'GNU General Public License v3.0') {
- return `This application is cover under GNU General Public License v3.0 license.`
+    return '[![License: GNU](https://img.shields.io/badge/License-GNU-red.svg)](https://opensource.org/license/gpl-3-0/)'
   } if (licenseName ==='MIT License') {
-   return '[![This application is cover under MIT License.](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
   }
   if (licenseName === 'The BSD 2-Clause Simplified License') {
-    return `This application is cover under The BSD 3 New or Revised License.`
+    return '[![License: BSD2](https://img.shields.io/badge/License-BSD2-blue.svg)](https://opensource.org/license/bsdpluspatent/)'
   }
   else { 
-    return `This application is cover under The BSD 3 New or Revised License.`
+    return '[![License: MIT](https://img.shields.io/badge/License-Eclipse-white.svg)](https://opensource.org/licenses/MIT)'
   } `$(licenseName)`
  }
 module.exports = generateMarkdown;
 
-return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/epl-2-0/)'

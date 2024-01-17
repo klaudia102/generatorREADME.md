@@ -73,7 +73,7 @@ function init() {
             type: "list",
             name: "License",
             message: "What kind of licence your application has?",
-            choices:['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'The BSD 2-Clause Simplified License','The BSD 3 New or Revised License'],
+            choices:['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'The BSD 2-Clause Simplified License','Eclipse Public License 2.0'],
         },
         {
             name: "Contribution",
