@@ -1,6 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.Title}\n
+  return `# ${data.Title}  ${generateLicenseBadg(data.License)}\n
 
 ## Table of Contents:
 
@@ -22,7 +22,7 @@ ${data.Instalation}\
 ${data.Usage}\n
 
 ## License\n
-${generateLicenseBadg(data.License)} \n
+This application is covwe under ${data.License}. \n
 
 ## Contributing\n
 ${data.Contribution}\n
