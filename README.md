@@ -27,7 +27,7 @@ To use application, user should enter 'node index.js' command in terminal and an
 
 ## License
 
-This application is covwe under MIT License. 
+This application is cover under MIT License. 
 
 
 ## Contributing
