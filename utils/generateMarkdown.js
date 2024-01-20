@@ -22,7 +22,7 @@ ${data.Instalation}\
 ${data.Usage}\n
 
 ## License\n
-This application is covwe under ${data.License}. \n
+This application is cover under ${data.License}. \n
 
 ## Contributing\n
 ${data.Contribution}\n
