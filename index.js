@@ -46,6 +46,10 @@ function init() {
             name: "email",
             message: "What is your email address for communication regarding application?"
         },
+        {
+            name: "video",
+            message: "Would you like to submit link to video demonstration?"
+        },
     ]).then(answers => {
         fs.writeFile("README.md", generateMarkdown(answers), err => {
             err ? console.error(err) : console.log ('Success!')
