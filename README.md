@@ -14,20 +14,21 @@
 
 ## Description
 
-This project has been created for developers, so they can easily create high quality README.md for their open-source project. Due to use of my application, they will save time and effor, and freedom to spend more time on actual project.
+This project has been created for developers, so they can easily create high-quality README.md for their open-source project. Due to the use of my application, they will save time and effort, and freedom to spend more time on the actual project.
 
 
 ## Instalation
 
 N/A
+
 ## Usage
 
-To use application, user should enter 'node index.js' command in terminal and answer question. README.md wil be created from given answers and placed in repository.
+To use the application, the user should enter the 'node index.js' command in the terminal and answer the question. README.md will be created from the given answers and placed in the repository.
 
 
 ## License
 
-This application is cover under MIT License. 
+This application is covered under the MIT License. 
 
 
 ## Contributing
@@ -43,6 +44,6 @@ N/A
 ## Questions
 
  This application has been created by  klaudia102 https://github.com/klaudia102. 
- If you have any question please send me an email k.kierepka.a@gmail.com.
+ If you have any questions please send me an email at k.kierepka.a@gmail.com.
 
 
