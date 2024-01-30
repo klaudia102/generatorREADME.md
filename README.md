@@ -14,7 +14,7 @@
 
 ## Description
 
-This project has been created for developers, so they can easily create high quality README.md for their open-source project. Due to use of my application, they will save time and effor, and freedom to spend more time on actual project.
+This project has been created for developers, so they can easily create high-quality README.md for their open-source project. Due to the use of my application, they will save time and effort, and freedom to spend more time on the actual project.
 
 
 ## Instalation
@@ -22,7 +22,9 @@ This project has been created for developers, so they can easily create high qua
 N/A
 ## Usage
 
-To use application, user should enter 'node index.js' command in terminal and answer question. README.md wil be created from given answers and placed in repository.
+To use the application, the user should enter the 'node index.js' command in the terminal and answer the question. README.md will be created from the given answers and placed in the repository.
+
+ Video demo of application: https://drive.google.com/file/d/1YjLZHN9YmbWE-tE9VZj2HkYO-g7whbXb/view 
 
 
 ## License

@@ -20,6 +20,7 @@ ${data.Instalation}\
 
 ## Usage\n
 ${data.Usage}\n
+ Video demo of application: ${data.video} \n
 
 ## License\n
 This application is cover under ${data.License}. \n
